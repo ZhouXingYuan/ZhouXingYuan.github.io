@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #ccc;
+}
+
+body{
+    min-width: 320px;
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/*头部开始*/
+.header{
+    background-color: red;
+}
+
+.header>img{
+    vertical-align: bottom;
+    width: 100%;
+}
+/*头部结束*/
+
+/*中间区域开始*/
+.main{
+    color: #fff;
+}
+
+.main>.section{
+    display: flex;
+    margin: 4px 2px 4px 2px;
+    background-color: skyblue;
+}
+
+.main>.section>.co1{
+    flex: 1;
+    border-left: 1px solid #fff;
+    text-align: center;
+    background-color: #ff5555;
+}
+
+.main>.section:nth-child(1)>.co1{
+    height: 100px;
+}
+
+.main>.section:nth-child(2)>.co1{
+    height: 100px;
+    background-color: #00a7f7;
+}
+
+.main>.section:nth-child(3)>.co1{
+    height: 100px;
+    background-color: #7cb832;
+}
+
+.main>.section:nth-child(4)>.co1{
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(255, 153, 0, 0.4);
+}
+
+.main>.section>.co1:nth-child(1){
+    border-left: none;
+}
+
+.section>.hotel>p{
+    margin: 17px 0;
+}
+
+.section>.hotel>img{
+    width: 42px;
+    height: 46px;
+}
+
+.main>.section>.co1>div{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+.main>.section>.co1>div:nth-last-child(1){
+    border-bottom: none;
+}
+/*中间区域结束*/
+
+/*底部导航开始*/
+.nav{
+    background-color: #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav>ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav>ul>li{
+    flex: 1;
+    height: 70px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.nav>ul>li>i{
+    display: inline-block;
+    width: 42px;
+    height: 41px;
+    margin-top: 6px;
+    background: url("images/spirit.png") no-repeat;
+    background-position: -70px -35px;
+}
+
+.nav>ul>li:nth-child(2)>i{
+    background: url("images/spirit.png") no-repeat;
+    background-position: -210px -33px;
+}
+
+.nav>ul>li:nth-child(3)>i{
+    background: url("images/spirit.png") no-repeat;
+    background-position: -354px -33px;
+}
+
+.nav>ul>li:nth-child(4)>i{
+    background: url("images/spirit.png") no-repeat;
+    background-position: -494px -33px;
+}
+
+.nav>.assistant>li:nth-child(1)>i{
+    background: url("images/spirit.png") no-repeat;
+    background-position: -70px -156px;
+}
+
+.nav>.assistant>li:nth-child(2)>i{
+    background: url("images/spirit.png") no-repeat;
+    background-position: -210px -156px;
+}
+
+.nav>.assistant>li:nth-child(3)>i{
+    background: url("images/spirit.png") no-repeat;
+    background-position: -356px -152px;
+}
+
+.nav>.assistant>li:nth-child(4)>i{
+    background: url("images/spirit.png") no-repeat;
+    background-position: -495px -153px;
+}
+
+.nav>ul>li>p{
+    color: #666;
+    font-size: 12px;
+}
+/*底部导航结束*/
+
+/*底部指引区域开始*/
+.guide{
+    display: flex;
+    height: 80px;
+    background-color: #fff;
+}
+
+.guide>div{
+    flex: 1;
+    background-color: green;
+    text-align: center;
+    background-color: #fff;
+}
+
+.guide>div>i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+
+}
+
+.guide>div>p{
+    font-size: 12px;
+}
+
+.guide div .iconfont{
+    /*iconfont-weight: bold;*/
+    font-size: 30px;
+    line-height: 40px;
+}
+/*底部指引区域结束*/
+
+/*底部区域开始*/
+.footer{
+    height: 50px;
+    background-color: #ccc;
+}
+
+.footer p{
+    line-height: 50px;
+    float: left;
+}
+
+.footer>p:first-child{
+    margin-right: 10px;
+}
+
+.footer>a{
+    text-decoration: none;
+    color: #333;
+}
+/*底部区域结束*/
